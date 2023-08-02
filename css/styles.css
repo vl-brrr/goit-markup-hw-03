@@ -1,0 +1,188 @@
+/*Шаблони (змінні)*/
+:root {
+  --logo: 'Raleway', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --navy-blue: #2e2f42;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+/*General*/
+body {
+  font-family: var(--main-font);
+  color: var(--slate);
+  background-color: var(--white);
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/*Header + Footer*/
+.logo {
+  font-family: var(--logo);
+  color: var(--iris);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-span {
+  color: var(--navy-blue);
+}
+.navigation-link {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.navigation-link:hover,
+.navigation-link:focus,
+.contacts-links:hover,
+.contacts-links:focus {
+  color: var(--ocean);
+}
+.contacts {
+  list-style-type: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.contacts-links {
+  color: var(--slate);
+}
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer-text {
+  color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo-footer {
+  color: var(--cloud);
+}
+
+/*Main page*/
+.hero-page {
+  background-color: var(--navy-blue);
+}
+.hero-page-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-page-button {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background-color: var(--iris);
+  font-family: inherit;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.hero-page-button:hover,
+.hero-page-button:focus {
+  background-color: var(--ocean);
+}
+.section-one-list-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.section-one-list-text {
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.section-two-title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+.section-three {
+  background-color: var(--cloud);
+}
+.section-three-header {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+  text-align: center;
+}
+.team-card {
+  background-color: var(--white);
+}
+.section-three-list-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.section-three-list-text {
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/*Portfolio*/
+.filter-button {
+  font-family: inherit;
+  background: var(--cloud);
+  color: var(--iris);
+  text-align: center;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.filter-button:focus,
+.filter-button:hover {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.project-card-list {
+  background-color: var(--white);
+}
+.project-card-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.project-card-text {
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
