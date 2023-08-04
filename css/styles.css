@@ -70,12 +70,15 @@ img {
 }
 /*Header + Footer*/
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 
 .header .container {
   display: flex;
+}
+.header .logo {
+  padding: 24px 0;
+  display: block;
 }
 .logo {
   font-family: var(--logo);
@@ -100,6 +103,7 @@ img {
   margin-right: 332px;
 }
 .navigation-link {
+  display: block;
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 16px;
@@ -126,6 +130,7 @@ img {
 .contacts-links {
   color: var(--slate);
   padding: 24px 0;
+  display: block;
 }
 .footer {
   background-color: var(--navy-blue);
